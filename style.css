@@ -94,3 +94,82 @@ nav a:hover {
     border: 1px solid #ddd;
     background-color: white;
 }
+
+.vision {
+    margin: 30px 0;
+}
+.fi{
+margin-block: 10px;
+}
+
+.v-card1 {
+    background-color: #d5e1f5;
+}
+
+.v-card2 {
+    background-color: #c6e4d6;
+}
+
+.v-card3 {
+    background-color: #f7ebcf;
+}
+
+.v-card1,
+.v-card2,
+.v-card3 {
+    width: calc(100%/3);
+}
+
+.v_btn {
+    color: white;
+    padding: 8px 24px;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 20px 0 0;
+    transition: .3s;
+}
+
+.v-btn1 {
+    background-color: #5490f5;
+    border: 2px solid #5490f5;
+}
+
+.v-btn1:hover {
+    background-color: transparent;
+    color: #5490f5;
+}
+
+.v-btn2 {
+    background-color: #089052;
+    border: 2px solid #089052;
+}
+
+.v-btn2:hover {
+    background-color: transparent;
+    color: #089052;
+}
+
+.v-btn3 {
+    background-color: #ffc239;
+    border: 2px solid #ffc239;
+}
+
+.v-btn3:hover {
+    background-color: transparent;
+    color: #ffc239;
+}
+
+.testimonial {
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.testimonial p {
+    margin-bottom: 10px;
+}
+
+.testimonial .quote {
+    background-image: url('assets/quote-bg.png');
+    background-repeat: no-repeat;
+   
+}
