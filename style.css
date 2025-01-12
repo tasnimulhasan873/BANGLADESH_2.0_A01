@@ -173,3 +173,77 @@ margin-block: 10px;
     background-repeat: no-repeat;
    
 }
+.Opinion {
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.Opinion table {
+    text-align: Left;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.Opinion button {
+    padding: 8px 24px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .3s;
+    background-color: var(--light-primary-color);
+}
+
+.Opinion button:hover {
+    background-color: transparent;
+}
+
+.Opinion table th,
+td {
+    padding: 20px 20px;
+}
+
+.Opinion th {
+    background-color: var(--light-primary-color);
+}
+
+.news_holder {
+    margin-block: 30px;
+}
+
+.news {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.news_card {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.news_card img {
+    border-radius: 20px;
+}
+
+.news_card p {
+    margin: 10px 0;
+}
+
+.news_card a {
+    background-color: var(--primary-color);
+    padding: 8px 24px;
+    color: #fff;
+    margin-top: 10px;
+    display: inline-block;
+    border-radius: 4px;
+    border: 1.5px solid var(--primary-color);
+    transition: .3s;
+}
+
+.news_card a:hover {
+    background-color: transparent;
+    color: var(--primary-color);
+}
